@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test" },
+  "scripts": { "test": "node --test --test-timeout=2000" },
   "engines": { "node": ">=22" }
 }
